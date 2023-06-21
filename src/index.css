@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;1,900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+
+
+/* Components used: LearnMore, Services, Contact */
+.homepage__image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.4);
+}
+
+/* Components used: Footer*/
+.footer__image::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(13, 67, 215, 0.7); */
+  background-color: rgba(2, 23, 81, 0.7);
+}
+
+
+/* Components used: ChooseUs*/
+.flex-custom-home{
+  flex: 1 0 35%;
+}
+
+.flex-custom-services{
+  flex: 1 0 25%;
+}
+
+/* Components used: AnimationAOS - test*/
+.animation{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
