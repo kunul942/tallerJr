@@ -42,6 +42,12 @@ import {
     imageGallery22, 
     imageGallery23, 
     imageGallery24,
+    homeCard1,
+    homeCard2,
+    homeCard3,
+    homeCard4,
+    homeCard5,
+    homeCard6,
 } from '../assets/'
 
 
@@ -133,38 +139,38 @@ export const homeCard = [
         id: '01.',
         title: 'Taller enderezado y pintura',
         desc: 'Más de 25 años de experiencia en la industria de enderezado y pintura. Contamos con personal altamente calificado y capacitado.',
-        img: mainImage4,
+        img: homeCard1,
     },
     {
         id: '02.',
         title: 'Reconstruccion de vehículo',
         desc: 'Tu vehículo en las mejores manos. Podemos reconstruir tu vehículo desde cero y hacer que se vea como nuevo.',
-        img: mainImage10 
+        img: homeCard2 
     },
     {
         id: '03.',
         title: 'Preparación y enderezado',
         desc: 'El proceso de enderezado consiste en recuperar la forma inicial de lámina de acero deformada.',
-        img: mainImage7 ,
+        img: homeCard3 ,
     },
     {
         id: '04.',
         title: 'Pintado con detalle',
         desc: 'Preparamos la superficie para poder rociarla con pintura para que coincida adecuadamente con el color deseado.',
         // desc: 'Preparamos la superficie para poder rociarlo con el mejor material de pintura. Utilizamos materiales adecuados con la preparación para que coincida con el color deseado del vehículo',
-        img: mainImage6 ,
+        img: homeCard4 ,
     },
     {
         id: '05.',
         title: 'Pulido y acabado',
         desc: 'Removemos toda imperfección del vehículo, quitamos todos los rayones y de esa forma dar brillo al vehículo.',
-        img: mainImage6 ,
+        img: homeCard5 ,
     },
     {
         id: '06.',
         title: 'Lavado de vehículo',
         desc: 'Lavar el vehículo es importante para la conservación de la pintura, los revestimientos y de la guarnicionería',
-        img: mainImage6 ,
+        img: homeCard6 ,
     },
 ]
 

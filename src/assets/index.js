@@ -24,6 +24,14 @@ import mainImage10 from './homePage/enderezado10.jpg'
 import mainImage11 from './homePage/enderezado11.jpg'
 import mainImageServices from './homePage/imageServices.jpg'
 
+//homeCard
+import homeCard1 from '../assets/homeCard/tallerenderezadoypintura.jpg'
+import homeCard2 from '../assets/homeCard/reconstrucciondevehiculo.jpg'
+import homeCard3 from '../assets/homeCard/preparacionyenderezado.jpg'
+import homeCard4 from '../assets/homeCard/pintadocondetalle.jpg'
+import homeCard5 from '../assets/homeCard/pulidoyacabado.jpg'
+import homeCard6 from '../assets/homeCard/lavadodevehiculo.jpg'
+ 
 //about
 import imageAbout from './about/aboutImage.jpg'
 import vision from './about/brujula.png'
@@ -115,6 +123,12 @@ export{
     direccion,
     telefono,
 
+    homeCard1,
+    homeCard2,
+    homeCard3,
+    homeCard4,
+    homeCard5,
+    homeCard6,
     imageGallery1,
     imageGallery2,
     imageGallery3,
